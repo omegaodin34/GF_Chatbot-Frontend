@@ -131,12 +131,12 @@ export default function ChatBox(props: PropsType) {
     const convertTextToAudio = async (textToConvert: string) => {
         // Set the API key for ElevenLabs API
         // const apiKey = process.env.ELEVEN_LABS_API_KEY;
-        const apiKey = "af51400a2e44b449619f86304d951636";
+        const apiKey = "b83f8ebc87fee7b61a76499567b2dc69";
 
         console.log("API Key >>", apiKey);
     
         // ID of voice to be used for speech
-        const voiceId = '21m00Tcm4TlvDq8ikWAM';
+        const voiceId = 'L1QajoRwPFiqw35KD4Ch';
     
         // API request options
         const apiRequestOptions : AxiosRequestConfig = {
